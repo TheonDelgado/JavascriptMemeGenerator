@@ -26,6 +26,7 @@
     height: 100%;
     display: flex;
     justify-content: space-around;
+    align-items: end;
 }
 
 .meme-form input {
@@ -40,31 +41,30 @@
 }
 
 .added-image {
-    width: 200px;
-    height: 200px;
+    width: fit-content;
+    height: fit-content;
     position: relative;
-}
-
-.added-image img {
-    max-width: 100%;
-    max-height: 100%;
-    position: absolute;
-    z-index: 0;
-    left: 25%;
 }
 
 .top-text {
     position: absolute;
     top: 0%;
-    left: 50%;
+    left: 33%;
     font-size: 20px;
     z-index: 1;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
 }
 
 .bottom-text {
     position: absolute;
     bottom: 0%;
-    left: 50%;
+    left: 33%;
     font-size: 20px;
     z-index: 1;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
