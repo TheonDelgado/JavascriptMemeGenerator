@@ -10,6 +10,7 @@
     height: 80vh;
     background-color: pink;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -34,10 +35,8 @@
 }
 
 .meme-form button {
-    position: relative;
     width: 20vw;
     height: 5vh;
-    top: 7rem;
 }
 
 .added-image {
